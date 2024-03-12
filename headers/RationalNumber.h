@@ -71,8 +71,8 @@ class RationalNumber : GreatestCommonFactor
 };
 
 RationalNumber::RationalNumber(){
-    numerator = 0;
-    denominator = 0;
+    this -> numerator = 0;
+    this -> denominator = 0;
 }
 
 RationalNumber::RationalNumber(int numerator, int denominator){
